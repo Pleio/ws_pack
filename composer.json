@@ -1,7 +1,14 @@
 {
-    "name": "coldtrick/ws_pack",
+    "name": "pleio/ws_pack",
+    "description": "Adds different webservices functions to the Elgg (REST) API.",
     "type": "elgg-plugin",
+    "keywords": ["elgg", "plugin", "rest"],
+    "license": "GPL-2.0",
+    "support": {
+        "source": "https://github.com/Pleio/ws_pack",
+        "issues": "https://github.com/Pleio/ws_pack/issues"
+    },
     "require": {
-        "composer/installers": "~1.0"
+        "composer/installers": "^1.0.8"
     }
 }
