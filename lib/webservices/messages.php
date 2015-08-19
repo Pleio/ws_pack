@@ -181,7 +181,7 @@ function ws_pack_get_conversation($user_guid, $fromto_guid, $relationship, $limi
 		
 		$map = array();
 		foreach ($strings as $string) {
-			$id = elgg_get_metastring_id($string);
+			$id = get_metastring_id($string);
 			$map[$string] = $id;
 		}
 		
@@ -255,7 +255,7 @@ function ws_pack_get_last_conversations($user_guid, $limit = 100, $offset = 0, $
 		
 		$map = array();
 		foreach ($strings as $string) {
-			$id = elgg_get_metastring_id($string);
+			$id = get_metastring_id($string);
 			$map[$string] = $id;
 		}
 		
